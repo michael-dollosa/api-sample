@@ -1,0 +1,18 @@
+User Registration
+
+//form user Registration
+//submit -> trigger user registration API
+
+Login
+
+const [header, setHeader] = useState("")
+
+const login = () => {
+  userLogin(obj)
+  .then(data => {
+    const header = {
+      token: header.access-token
+    }
+    setHeader(data.setHeader)
+  })
+}
